@@ -1,7 +1,7 @@
 html, 
 body {
 	font-size: 16px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Hind', sans-serif;
 	color: rgb(75, 79, 79);
 
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .menu a:hover {
-	color: rgb(222, 199, 22);
+	color: rgb(225, 206, 60);
 	font-weight: 400;
 }
 
@@ -86,7 +86,7 @@ body {
 
 #button {
 	background-color: rgb(145, 149, 149);
-	padding-top: 8px;
+	padding-top: 12px;
 	padding-bottom: 8px;
 	width: 100%;
 	height: 15px;
@@ -94,7 +94,7 @@ body {
 }
 
 #button:hover {
-	background-color: rgb(201, 185, 62);
+	background-color: rgb(208, 195, 93);
 }
 
 .banner-content h4 {
@@ -102,8 +102,6 @@ body {
 	text-align: center;
 	font-size: 0.90rem;
 }
-
-
 
 .information {
 	display: flex;
@@ -135,14 +133,13 @@ body {
 }
 
 .info-sub {
-	width: 423px;
+	width: 40%;
 	padding-top: 16px;
 }
 
 .sub-box {
 	display: flex;
 	align-items: center;
-	
 }
 
 .sub-box img {
@@ -150,35 +147,105 @@ body {
 	padding: 16px;
 }
 
-.sub-p p {
-	margin-bottom: 8px;
-	margin-left: 5px;
-}
-
 .sub-p a {
 	text-decoration: none;
 	color: rgb(81, 142, 218);
+	font-weight: lighter;
+	font-size: 0.90rem;
+}
+
+.sub-p a:hover {
+	color: rgb(20, 84, 194);
+	font-weight: 500;
 }
 
 #title {
 	font-size: 1.10rem;
-	font-weight: 500;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 8px;
+	color: rgb(60, 61, 63);
 }
 
 #description {
 	font-weight: lighter;
 	font-size: 0.90rem;
-	padding-top: 5px;
-	padding-bottom: 18px;
-}
-
-#read-more {
-	font-weight: lighter;
-	font-size: 0.90rem;
-
+	padding-bottom: 24px;
+	padding-top: 8px;
+	line-height: 15px;
+	
 }
 
 #guest {
-	background-color: rgb(201, 206,206);
-
+	background-color: rgb(201, 206, 206);
 }
+
+
+.courses {
+	background-color: rgb(220, 225, 225);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.courses h2 {
+	font-size: 1.75rem;
+	font-weight: bold;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.row-one, .row-two {
+	display: flex;
+	justify-content: center;
+}
+
+.row-two {
+	margin-bottom: 32px;
+}
+
+.course-items {
+	width: 25%;
+	background-color: white;
+	margin-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.course-items img {
+	width: 100%;
+}
+
+.course-top {
+	height: 220px;
+}
+
+.course-top h3 {
+	padding-left: 16px;
+}
+
+.course-top p {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	font-weight: lighter;
+	color: rgb(119, 122, 126);
+}
+
+.course-bottom {
+	padding-left: 16px;
+}
+
+.course-bottom p {
+	color: rgb(119, 122, 126);
+	
+}
+
+#second {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+
+
+
