@@ -3,7 +3,6 @@ body {
 	font-size: 16px;
 	font-family: 'Hind', sans-serif;
 	color: rgb(75, 79, 79);
-
 }
 
 .header .container {
@@ -124,12 +123,14 @@ body {
 }
 
 .info-main p {
-	font-weight: lighter;
-	line-height: 1.5rem;
+	margin-bottom: 32px; 
 }
 
 #quote {
-	margin-bottom: 32px; 
+	font-weight: lighter;
+	line-height: 1.5rem;
+	font-size: 0.90rem;
+	color: rgb(144, 148, 152);
 }
 
 .info-sub {
@@ -172,11 +173,11 @@ body {
 	font-size: 0.90rem;
 	padding-bottom: 24px;
 	line-height: 20px;
-	
+	color: rgb(144, 148, 152);
 }
 
-#guest {
-	background-color: rgb(201, 206, 206);
+#special {
+	background-color: rgb(235, 237, 239);
 }
 
 
@@ -239,8 +240,6 @@ body {
 
 .course-bottom p {
 	color: rgb(119, 122, 126);
-
-	
 }
 
 #second {
@@ -248,6 +247,52 @@ body {
 	margin-right: 16px;
 }
 
+.thesis-container {
+	display: flex;
+	width: 100%;
+}
 
+.thesis h2 {
+	padding-top: 32px;
+	font-size: 1.75rem;
+	font-weight: bold;
+	text-align: center;
+}
 
+.thesis-main {
+	width: 60%;
+	padding: 32px 24px 32px 24px;
 
+}
+
+.thesis-main video {
+	width: 100%;
+}
+
+.thesis-main h3 {
+	font-size: 1.10rem;
+	font-weight: bold;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	color: rgb(60, 61, 63);
+}
+
+.sub-thesis {
+	width: 423px;
+	padding-top: 32px;
+
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.80rem;
+	color: rgb(60, 61, 63);
+	padding: 20px 5px 70px 24px;
+	border-top: solid rgb(235, 238, 242);
+	color: rgb(144, 148, 152);
+}
+
+.legal span {
+	padding-right: 15px;
+}
