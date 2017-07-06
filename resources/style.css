@@ -3,6 +3,7 @@ body {
 	font-size: 16px;
 	font-family: 'Hind', sans-serif;
 	color: rgb(75, 79, 79);
+
 }
 
 .header .container {
@@ -157,7 +158,8 @@ body {
 
 .sub-p {
 	max-width: 14rem;
-	padding: 1rem;
+	padding: 2rem;
+
 }
 
 .sub-p a {
@@ -292,6 +294,7 @@ body {
 }
 
 .thesis-box {
+
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -345,6 +348,7 @@ body {
 
 	.header .container {
 		display: none;
+
 	}
 
 	.banner .container {
@@ -377,6 +381,9 @@ body {
 		margin-bottom: -32px;
 	}
 
+	.information {
+
+	}
 
 	.info-main {
 		display: none;
@@ -387,11 +394,16 @@ body {
 		padding-top: 0px;
 		padding-bottom: 32px;
 		display: block;
+		margin: 0px;
+		padding-left: 16px;
+
+
 	}
 
 	.sub-box {
 		display: block;
 		padding-bottom: 0px;
+		padding-left: 0px;
 	}
 
 	.pc-img img {
@@ -400,17 +412,19 @@ body {
 
 	.mobile-img {
 		display: block;
+		width: 100%;
+
 	}
 
 	.mobile-img img {
-		width: 87%;
-		padding-left: 16px;
-		padding-right: 16px;
+		width: 100%;
+		
 	}
 
 	.sub-p p {
 		display: block;
-		padding-left: 32px;		
+		padding-left: 32px;	
+		width: 100%;	
 	}
 
 	#special {
