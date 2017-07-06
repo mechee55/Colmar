@@ -140,16 +140,17 @@ body {
 .sub-box {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 423px;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	padding-left: 16px;
+
 }
 
 
 .pc-img {
 	width: 35%;
-
 }
 
 .pc-img img {
@@ -157,10 +158,11 @@ body {
 }
 
 .sub-p {
-	margin-left: -15px;
-	
-}
+	max-width: 14rem;
+	padding: 1rem;
 
+
+}
 
 .sub-p a {
 	text-decoration: none;
