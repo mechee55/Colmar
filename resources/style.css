@@ -135,7 +135,7 @@ body {
 }
 
 .info-sub {
-	padding-top: 16px;
+	padding-top: 24px;
 }
 
 .sub-box {
@@ -143,8 +143,6 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	width: 423px;
-	padding-top: 16px;
-	padding-bottom: 16px;
 	padding-left: 16px;
 }
 
