@@ -161,7 +161,7 @@ body {
 }
 
 #title {
-	font-size: 1.10rem;
+	font-size: 1.20rem;
 	font-weight: bold;
 	padding-top: 16px;
 	padding-bottom: 8px;
@@ -270,11 +270,8 @@ body {
 }
 
 .thesis-main h3 {
-	font-size: 1.10rem;
-	font-weight: bold;
 	padding-top: 24px;
 	padding-bottom: 24px;
-	color: rgb(60, 61, 63);
 }
 
 .sub-thesis {
@@ -296,3 +293,163 @@ body {
 .legal span {
 	padding-right: 15px;
 }
+
+
+.mobile-menu {
+	display: none;
+}
+
+.mobile-img {
+	display: none;
+}
+
+.mobile-tabs {
+	display: none;
+}
+
+.video-mobile {
+	display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+	.mobile-menu {
+		height: 64px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.mobile-menu img:hover {
+		color: rgb(225, 206, 60);
+	}
+
+	.header .container {
+		display: none;
+	}
+
+	.banner .container {
+		display: block;
+		padding: 0px;
+	}
+
+	.banner .container img {
+		height: 180px;
+		width: 100%;
+	}
+
+	.banner-content {
+		margin: 32px 16px;
+	}
+
+	.banner-content h2 {
+		margin-bottom: 32px;
+	}
+
+	.banner-content p {
+		margin-bottom: 24px;
+	}
+
+	.banner-content h4 {
+		margin-bottom: 32px;
+	}
+
+	.banner .container {
+		margin-bottom: -32px;
+	}
+
+
+	.info-main {
+		display: none;
+	}
+
+	.info-sub {
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 32px;
+		display: block;
+	}
+
+	.sub-box {
+		display: block;
+		padding-bottom: 0px;
+	}
+
+	.pc-img img {
+		display: none;
+	}
+
+	.mobile-img {
+		display: block;
+	}
+
+	.mobile-img img {
+		width: 92%;
+	}
+
+	.sub-p p {
+		display: block;
+		padding-left: 32px;		
+	}
+
+	#special {
+		background-color: white;
+	}
+
+
+	.row-one, .row-two{
+		display: none;
+	}
+
+	.courses {
+		background-color: white;
+	}
+
+	.mobile-tabs {
+		display: block;
+		width: 92%;
+		margin-bottom: 24px;
+	}
+
+	.tabs h3 {
+		background-color: rgb(235, 237, 239);
+		padding: 16px;
+		font-size: 1.25rem;
+		margin-bottom: 8px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+
+	.thesis {
+		padding-bottom: 24px;
+		width: 100%;
+	}
+
+	.thesis h2 {
+		padding-bottom: 32px;
+	}
+
+	.thesis-container {
+		display: none;
+
+	}
+
+	.video-mobile {
+		display: block;
+	}
+
+	.video-mobile video {
+		width: 100%;
+	}
+
+	.footer {
+		border-top: none; 
+	}
+
+	.legal span {
+		display: none;
+	}
+}
+
+
+
+
